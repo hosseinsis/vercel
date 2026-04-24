@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "rewrites": [
+  "routes": [
     {
-      "source": "/test",
-      "destination": "/index.html"
+      "src": "/ws",
+      "dest": "http://66.93.9.13:8080/"
     },
     {
-      "source": "/ws",
-      "destination": "http://66.93.9.13:8080/"
+      "src": "/(.*)",
+      "dest": "https://google.com"
     }
   ]
 }
