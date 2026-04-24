@@ -6,8 +6,8 @@
       "destination": "/index.html"
     },
     {
-      "source": "/(.*)",
-      "destination": "http://66.93.9.13:8080/$1"
+      "source": "/ws",
+      "destination": "http://66.93.9.13:8080/"
     }
   ]
 }
